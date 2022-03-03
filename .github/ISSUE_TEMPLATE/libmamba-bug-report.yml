@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping Conda! 🐍
+        Thanks for helping conda! 🐍
 
         You are trying out an experimental feature. If you are encountering blocking issues we first suggest removing the experimental solver by typing the following code into your terminal:
         ```bash
@@ -18,7 +18,7 @@ body:
 
         There are also already a lot of open issues, so please take 2 minutes and search through existing ones to see if what you are experiencing already exists
 
-        Thanks for helping Conda be amazing. We are nothing without people like you helping build a better community 💐!
+        Thanks for helping conda be amazing. We are nothing without people like you helping build a better community 💐!
   - type: checkboxes
     id: checks
     attributes:
@@ -84,4 +84,5 @@ body:
   - type: markdown
     attributes:
       value: |
-       ## Important: Please attach the log files in a comment to this issue once its created. The log files should be found on your computer at `<install path of anaconda>\envs\libmamba\pkgs\.logs\`. You will also see this exact path as it relates to your system on the command line after running anything with `--experimental-solver=libmamba`. 
+       ## Important: 
+       Please attach the log files in a comment to this issue after you have used the `Submit new issue` button. The log files should be found on your computer at `<install path of anaconda>\envs\libmamba\pkgs\.logs\`. You will also see this exact path as it relates to your system on the command line after running anything with `--experimental-solver=libmamba`. 
