@@ -80,7 +80,7 @@ body:
       description: Add any additional context information or screenshots you think are useful.
       
     - type: textarea
-    attributes:
+      attributes:
       label: Log file
       description: |
         Please attach the associated log file (drag and drop the file into the textbox
