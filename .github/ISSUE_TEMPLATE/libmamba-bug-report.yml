@@ -81,9 +81,9 @@ body:
       
   - type: textarea
     attributes:
-    label: Log file
-    description: |
-      Please attach the associated log file (drag and drop the file into the textbox
-      below). The log file can be found at `$CONDA_PREFIX\pkgs\.logs\`. The
-      exact path is also printed to the command line when running commands with
-      `--experimental-solver=libmamba`.
+      label: Log file
+      description: |
+        Please attach the associated log file (drag and drop the file into the textbox
+        below). The log file can be found at `$CONDA_PREFIX\pkgs\.logs\`. The
+        exact path is also printed to the command line when running commands with
+        `--experimental-solver=libmamba`.
