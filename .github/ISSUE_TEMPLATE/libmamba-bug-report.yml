@@ -73,11 +73,6 @@ body:
         conda list --show-channel-urls
         ```
       render: shell
-  - type: textarea
-    id: context
-    attributes:
-      label: Additional Context
-      description: Add any additional context information or screenshots you think are useful.
       
   - type: textarea
     attributes:
